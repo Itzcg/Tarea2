@@ -203,6 +203,7 @@ button {
 
 /* ========== BUTTONS ========== */
 .btn {
+    transition: all var(--transition-base);
     display: inline-flex;
     align-items: center;
     justify-content: center;
