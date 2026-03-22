@@ -430,6 +430,7 @@ button {
 }
 
 .hero__buttons {
+    gap: var(--spacing-md);
     display: flex;
     /* ERROR 8: Los botones del hero están pegados sin espacio entre ellos
        PISTA: Falta la propiedad que define el espacio entre elementos flex */
