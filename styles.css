@@ -319,6 +319,7 @@ button {
 }
 
 .nav__link::after {
+    transition: width var(--transition-base);
     content: '';
     position: absolute;
     bottom: 0;
