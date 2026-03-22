@@ -221,6 +221,7 @@ button {
 }
 
 .btn--primary {
+    box-shadow: var(--shadow-lg);
     background: var(--gradient-primary);
     color: white;
     border: none;
